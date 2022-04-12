@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
       # Runs a single command using the runners shell
       - name: protobuf to openapi
-        uses: Prom3th3us/protobuf2swagger@notEnough
+        uses: miguelemosreverte/protobuf2openapi@latest
         with:
           protobuf: './src/main/protobuf/com/example/counter_api.proto'
         id: proto---openapi
